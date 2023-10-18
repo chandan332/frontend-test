@@ -27,7 +27,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <nav className="p-4 w-auto h-auto bg-blue-50 opacity-6">
+    <nav className="px-4 py-2 lg:py-4 w-auto h-auto bg-blue-50 opacity-6">
       <div className="relative container mx-auto flex justify-between items-center h-[12vh] max-h-[100px]">
         <LogoImage />
         {isMobile && (
